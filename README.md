@@ -1,5 +1,5 @@
-<div align="center"><h1> :sparkles: Thirty Two Bit Task :sparkles: </h1> </div>
-<div align="center"><h2> 🚥 32Bit Bilgisayar Task 🚥 </h2> </div>
+<div align="center"><h1> :sparkles: Room Booking Project :sparkles: </h1> </div>
+<div align="center"><h2> 🚥 ODA REZERVASYON PROJESİ 🚥 </h2> </div>
 
 :point_right:  'Room Booking' This Project is the Final Project of ETSTUR Bootcamp. Tools: **Java Spring-Hibernate-ORM-Maven-Spring Boot-AOP-DTO-JPA-RestAPI-JSON-Dev Tools-PostgreSQL**
 <br/>
