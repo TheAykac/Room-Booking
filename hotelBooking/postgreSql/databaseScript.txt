@@ -1,0 +1,234 @@
+CREATE TABLE IF NOT EXISTS public.campaigns
+(
+    campaign_id integer NOT NULL DEFAULT nextval('campaigns_campaign_id_seq'::regclass),
+    campaign_code character varying(255) COLLATE pg_catalog."default",
+    campaign_finish_date date,
+    campaign_name character varying(255) COLLATE pg_catalog."default",
+    capaign_quantity double precision,
+    campaign_quantity_used double precision,
+    campaign_start_date date,
+    precent_discount integer,
+    CONSTRAINT campaigns_pkey PRIMARY KEY (campaign_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.campaigns
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.credit_cards
+(
+    credit_card_id integer NOT NULL DEFAULT nextval('credit_cards_credit_card_id_seq'::regclass),
+    card_cvv character varying(3) COLLATE pg_catalog."default" NOT NULL,
+    card_expiration_date character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    card_number character varying(16) COLLATE pg_catalog."default" NOT NULL,
+    card_owner character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    customer_id integer NOT NULL,
+    CONSTRAINT credit_cards_pkey PRIMARY KEY (credit_card_id),
+    CONSTRAINT card_number UNIQUE (card_number),
+    CONSTRAINT customer_id_fk FOREIGN KEY (customer_id)
+        REFERENCES public.customers (customer_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.credit_cards
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.customers
+(
+    first_name character varying(255) COLLATE pg_catalog."default",
+    last_name character varying(255) COLLATE pg_catalog."default",
+    customer_id integer NOT NULL,
+    CONSTRAINT customers_pkey PRIMARY KEY (customer_id),
+    CONSTRAINT user_id_fk FOREIGN KEY (customer_id)
+        REFERENCES public.users (user_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.customers
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.hotels
+(
+    city character varying(255) COLLATE pg_catalog."default",
+    hotel_name character varying(255) COLLATE pg_catalog."default",
+    hotel_star character varying(255) COLLATE pg_catalog."default",
+    hotel_tel bigint,
+    hotel_type character varying(255) COLLATE pg_catalog."default",
+    hotel_id integer NOT NULL,
+    hotel_statu character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT hotels_pkey PRIMARY KEY (hotel_id),
+    CONSTRAINT user_id_fk FOREIGN KEY (hotel_id)
+        REFERENCES public.users (user_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.hotels
+    OWNER to postgres;
+
+
+
+CREATE TABLE IF NOT EXISTS public.invoices
+(
+    invoice_id integer NOT NULL DEFAULT nextval('invoices_invoice_id_seq'::regclass),
+    booking_room_total_price double precision NOT NULL,
+    creation_date date,
+    finish_date date NOT NULL,
+    invoice_no character varying(16) COLLATE pg_catalog."default" NOT NULL,
+    start_date date NOT NULL,
+    total_rental_day integer NOT NULL,
+    customer_id integer NOT NULL,
+    payment_id integer NOT NULL,
+    room_booking_id integer NOT NULL,
+    CONSTRAINT invoices_pkey PRIMARY KEY (invoice_id),
+    CONSTRAINT invoice_no UNIQUE (invoice_no),
+    CONSTRAINT payment_id UNIQUE (payment_id),
+    CONSTRAINT customer_id_fk FOREIGN KEY (customer_id)
+        REFERENCES public.customers (customer_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT payment_id_fk FOREIGN KEY (payment_id)
+        REFERENCES public.payments (payment_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT room_booking_if_fk FOREIGN KEY (room_booking_id)
+        REFERENCES public.room_bookings (room_booking_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.invoices
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.payments
+(
+    payment_id integer NOT NULL DEFAULT nextval('payments_payment_id_seq'::regclass),
+    total_price double precision,
+    room_booking_id integer,
+    CONSTRAINT payments_pkey PRIMARY KEY (payment_id),
+    CONSTRAINT room_booking_fk FOREIGN KEY (room_booking_id)
+        REFERENCES public.room_bookings (room_booking_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.payments
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.room_bookings
+(
+    room_booking_id integer NOT NULL DEFAULT nextval('room_bookings_room_booking_id_seq'::regclass),
+    finish_date date,
+    start_date date,
+    total_price double precision,
+    customer_id integer,
+    room_id integer,
+    CONSTRAINT room_bookings_pkey PRIMARY KEY (room_booking_id),
+    CONSTRAINT customer_id_fk FOREIGN KEY (customer_id)
+        REFERENCES public.customers (customer_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT room_id_fk FOREIGN KEY (room_id)
+        REFERENCES public.rooms (room_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.room_bookings
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.room_renavations
+(
+    room_renovation_id integer NOT NULL DEFAULT nextval('room_renavations_room_renovation_id_seq'::regclass),
+    room_renovation_description character varying(255) COLLATE pg_catalog."default",
+    room_id integer,
+    CONSTRAINT room_renavations_pkey PRIMARY KEY (room_renovation_id),
+    CONSTRAINT room_id_fk FOREIGN KEY (room_id)
+        REFERENCES public.rooms (room_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.room_renavations
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.rooms
+(
+    room_id integer NOT NULL DEFAULT nextval('rooms_room_id_seq'::regclass),
+    daily_price double precision,
+    description character varying(255) COLLATE pg_catalog."default",
+    floor integer,
+    person_capacity integer,
+    room_type character varying(255) COLLATE pg_catalog."default",
+    hotel_id integer,
+    CONSTRAINT rooms_pkey PRIMARY KEY (room_id),
+    CONSTRAINT hotel_id_fk FOREIGN KEY (hotel_id)
+        REFERENCES public.hotels (hotel_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.rooms
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.system_management
+(
+    first_name character varying(255) COLLATE pg_catalog."default",
+    last_name character varying(255) COLLATE pg_catalog."default",
+    system_management_id integer NOT NULL,
+    CONSTRAINT system_management_pkey PRIMARY KEY (system_management_id),
+    CONSTRAINT user_id_fk FOREIGN KEY (system_management_id)
+        REFERENCES public.users (user_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.system_management
+    OWNER to postgres;
+
+
+
+
+CREATE TABLE IF NOT EXISTS public.users
+(
+    user_id integer NOT NULL DEFAULT nextval('users_user_id_seq'::regclass),
+    email character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    password character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    user_role character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT users_pkey PRIMARY KEY (user_id),
+    CONSTRAINT email UNIQUE (email)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.users
+    OWNER to postgres;

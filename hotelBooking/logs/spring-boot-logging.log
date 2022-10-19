@@ -1,0 +1,850 @@
+2022-10-18 17:55:25,412 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 25740 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 17:55:25,413 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 17:55:25,444 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 17:55:25,445 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 17:55:26,003 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 17:55:26,084 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 74 ms. Found 11 JPA repository interfaces.
+2022-10-18 17:55:26,501 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 17:55:26,508 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 17:55:26,508 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 17:55:26,581 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 17:55:26,582 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1137 ms
+2022-10-18 17:55:26,693 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 17:55:26,733 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 17:55:26,862 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 17:55:26,934 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 17:55:27,052 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 17:55:27,064 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 17:55:27,730 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 17:55:27,736 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 17:55:28,419 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10527842, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2567b6f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d6d1903, org.springframework.security.web.header.HeaderWriterFilter@5870e5b7, org.springframework.security.web.authentication.logout.LogoutFilter@64c64f56, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ebeb974, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@475e3f47, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@11b1e047, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fc45f37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10e77faa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d8d071d, org.springframework.security.web.session.SessionManagementFilter@426e98c, org.springframework.security.web.access.ExceptionTranslationFilter@1fc1f396, org.springframework.security.web.access.intercept.AuthorizationFilter@198398cb]
+2022-10-18 17:55:28,535 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 17:55:29,191 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 17:55:29,224 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 17:55:29,234 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 4.048 seconds (JVM running for 4.619)
+2022-10-18 17:55:29,236 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 17:55:48,482 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 17:55:48,484 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-18 17:55:48,485 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-18 17:55:50,620 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 3796 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 17:55:50,622 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 17:55:50,622 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 17:55:50,651 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 17:55:50,652 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 17:55:51,183 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 17:55:51,256 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 67 ms. Found 11 JPA repository interfaces.
+2022-10-18 17:55:51,628 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 17:55:51,635 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 17:55:51,635 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 17:55:51,698 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 17:55:51,699 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1047 ms
+2022-10-18 17:55:51,799 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 17:55:51,828 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 17:55:51,939 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 17:55:52,001 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 17:55:52,109 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 17:55:52,120 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 17:55:52,734 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 17:55:52,739 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 17:55:53,353 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48138ea9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@577f5173, org.springframework.security.web.context.SecurityContextPersistenceFilter@52220bcf, org.springframework.security.web.header.HeaderWriterFilter@64c64f56, org.springframework.security.web.authentication.logout.LogoutFilter@3b178eed, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@409c8be0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2567b6f3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7dc6b9f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@350041d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d4d3252, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@499374c6, org.springframework.security.web.session.SessionManagementFilter@6f7c599d, org.springframework.security.web.access.ExceptionTranslationFilter@7ef16026, org.springframework.security.web.access.intercept.AuthorizationFilter@3a76a7d4]
+2022-10-18 17:55:53,443 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 17:55:54,033 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 17:55:54,064 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 17:55:54,074 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.686 seconds (JVM running for 4.242)
+2022-10-18 17:55:54,076 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 17:56:57,189 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 17:56:57,191 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-18 17:56:57,193 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-18 17:56:59,508 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.hotelBooking.HotelBookingApplication.main(HotelBookingApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 23 common frames omitted
+2022-10-18 17:58:33,373 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 24948 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 17:58:33,375 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 17:58:33,375 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 17:58:33,408 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 17:58:33,408 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 17:58:33,987 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 17:58:34,072 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 78 ms. Found 11 JPA repository interfaces.
+2022-10-18 17:58:34,464 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 17:58:34,471 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 17:58:34,471 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 17:58:34,540 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 17:58:34,540 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1132 ms
+2022-10-18 17:58:34,648 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 17:58:34,680 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 17:58:34,787 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 17:58:34,850 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 17:58:34,967 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 17:58:34,978 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 17:58:35,606 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 17:58:35,611 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 17:58:36,195 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b3f4925, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63996045, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b40ff76, org.springframework.security.web.header.HeaderWriterFilter@2e35736d, org.springframework.security.web.authentication.logout.LogoutFilter@37b1cf7e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e34933d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1ee5a72d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6dbde131, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@403af7f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1711db15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77aba351, org.springframework.security.web.session.SessionManagementFilter@44c40314, org.springframework.security.web.access.ExceptionTranslationFilter@37eb9333, org.springframework.security.web.access.intercept.AuthorizationFilter@2274cbd7]
+2022-10-18 17:58:36,291 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 17:58:36,893 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 17:58:36,923 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 17:58:36,933 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.8 seconds (JVM running for 4.416)
+2022-10-18 17:58:36,935 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 18:02:36,428 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 18:02:36,430 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-18 18:02:36,432 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-18 18:02:38,620 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 18152 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 18:02:38,621 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 18:02:38,622 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "prod"
+2022-10-18 18:02:42,144 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.768 seconds (JVM running for 4.339)
+2022-10-18 18:02:42,146 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 18:04:16,064 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 18:04:16,067 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 18:04:16,067 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 18:04:16,101 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 18:04:16,101 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 18:04:16,662 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 18:04:16,735 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 67 ms. Found 11 JPA repository interfaces.
+2022-10-18 18:04:17,112 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 18:04:17,118 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 18:04:17,119 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 18:04:17,181 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 18:04:17,181 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1079 ms
+2022-10-18 18:04:17,281 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 18:04:17,311 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 18:04:17,412 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 18:04:17,472 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 18:04:17,580 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 18:04:17,591 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 18:04:18,206 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 18:04:18,212 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 18:04:18,783 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c1aa4a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6da11b8a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d0b6fd2, org.springframework.security.web.header.HeaderWriterFilter@14eb18dc, org.springframework.security.web.authentication.logout.LogoutFilter@30ff4d71, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b169210, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2197c65a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@a9cfbd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a827bc7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d76bbd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e8ec7af, org.springframework.security.web.session.SessionManagementFilter@464e6b03, org.springframework.security.web.access.ExceptionTranslationFilter@4f196c49, org.springframework.security.web.access.intercept.AuthorizationFilter@6f7eab5]
+2022-10-18 18:04:18,880 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 18:04:19,490 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 18:04:19,520 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 18:04:19,530 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.732 seconds (JVM running for 4.293)
+2022-10-18 18:04:19,532 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 18:04:33,352 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-18 18:04:33,352 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-18 18:04:33,353 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-18 18:04:34,003 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 335 ms
+2022-10-18 18:04:40,661 INFO com.example.hotelBooking.api.controllers.RoomControllers [http-nio-8080-exec-10] Fetching All Customer
+2022-10-18 18:04:40,723 INFO com.example.hotelBooking.business.concretes.RoomManager [http-nio-8080-exec-10] The Get List Operation Worked RoomManager -> getAll operation
+2022-10-18 21:31:16,919 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:31:17,072 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2022-10-18 21:31:17,086 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-18 21:31:17,147 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:17,186 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-10-18 21:31:17,193 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-10-18 21:31:17,433 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:31:17,433 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:31:17,433 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:31:17,791 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:31:17,842 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:31:17,965 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:31:17,967 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:31:17,967 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:31:17,988 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:31:17,988 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 552 ms
+2022-10-18 21:31:18,034 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:31:18,040 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-10-18 21:31:18,095 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-10-18 21:31:18,095 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:31:18,445 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:31:18,446 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:18,603 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:31:18,603 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:18,604 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Shutdown initiated...
+2022-10-18 21:31:18,622 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Shutdown completed.
+2022-10-18 21:31:18,623 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:31:18,628 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:31:18,649 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:31:20,129 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:31:20,130 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:31:20,130 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:31:20,307 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:31:20,353 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 45 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:31:20,416 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:31:20,416 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:31:20,417 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:31:20,431 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:31:20,431 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 300 ms
+2022-10-18 21:31:20,466 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:31:20,469 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-10-18 21:31:20,511 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-10-18 21:31:20,512 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:31:20,720 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:31:20,720 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:21,014 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a81b5ee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a71d742, org.springframework.security.web.context.SecurityContextPersistenceFilter@38d721b2, org.springframework.security.web.header.HeaderWriterFilter@13f5bd69, org.springframework.security.web.authentication.logout.LogoutFilter@3e9ba8c1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@641d5bad, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6e610f0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46a3507b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63d7be16, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d7749f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@486dbb31, org.springframework.security.web.session.SessionManagementFilter@28b2836, org.springframework.security.web.access.ExceptionTranslationFilter@5e80bb6d, org.springframework.security.web.access.intercept.AuthorizationFilter@471b6ab5]
+2022-10-18 21:31:21,045 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:31:21,415 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:31:21,426 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:31:21,429 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.334 seconds (JVM running for 12426.191)
+2022-10-18 21:31:21,430 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:31:21,430 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:31:45,292 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:31:45,300 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping service [Tomcat]
+2022-10-18 21:31:45,305 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:45,305 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-3 - Shutdown initiated...
+2022-10-18 21:31:45,306 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-3 - Shutdown completed.
+2022-10-18 21:31:45,374 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:31:45,374 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:31:45,374 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:31:45,622 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:31:45,684 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 61 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:31:45,753 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:31:45,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:31:45,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:31:45,771 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:31:45,772 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 396 ms
+2022-10-18 21:31:45,830 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:31:45,835 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-10-18 21:31:45,921 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-10-18 21:31:45,921 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:31:46,169 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:31:46,169 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:46,308 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:31:46,308 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:46,309 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Shutdown initiated...
+2022-10-18 21:31:46,319 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Shutdown completed.
+2022-10-18 21:31:46,319 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:31:46,329 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:31:46,332 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:31:47,801 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:31:47,801 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:31:47,801 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:31:48,003 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:31:48,050 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:31:48,113 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:31:48,114 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:31:48,114 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:31:48,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:31:48,128 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 326 ms
+2022-10-18 21:31:48,164 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:31:48,170 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2022-10-18 21:31:48,217 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2022-10-18 21:31:48,217 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:31:48,399 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:31:48,399 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:31:48,683 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@49426fe8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9bbc548, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ec8e000, org.springframework.security.web.header.HeaderWriterFilter@71f3e239, org.springframework.security.web.authentication.logout.LogoutFilter@1ad77641, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@688669c7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@69c4d9f9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26364f31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@483a524e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2636835a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d25d261, org.springframework.security.web.session.SessionManagementFilter@4121d386, org.springframework.security.web.access.ExceptionTranslationFilter@e0d0334, org.springframework.security.web.access.intercept.AuthorizationFilter@472d01f7]
+2022-10-18 21:31:48,708 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:31:49,089 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:31:49,099 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:31:49,102 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.325 seconds (JVM running for 12453.865)
+2022-10-18 21:31:49,103 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:31:49,103 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:32:25,244 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:32:25,253 INFO org.apache.juli.logging.DirectJDKLog [Thread-14] Stopping service [Tomcat]
+2022-10-18 21:32:25,257 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-14] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:32:25,258 INFO com.zaxxer.hikari.HikariDataSource [Thread-14] HikariPool-5 - Shutdown initiated...
+2022-10-18 21:32:25,259 INFO com.zaxxer.hikari.HikariDataSource [Thread-14] HikariPool-5 - Shutdown completed.
+2022-10-18 21:32:25,325 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:32:25,326 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:32:25,326 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:32:25,530 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:32:25,577 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:32:25,646 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:32:25,647 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:32:25,647 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:32:25,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:32:25,661 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 334 ms
+2022-10-18 21:32:25,701 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:32:25,706 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2022-10-18 21:32:25,851 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2022-10-18 21:32:25,851 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:32:26,103 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:32:26,103 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:32:26,246 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:32:26,246 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:32:26,246 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Shutdown initiated...
+2022-10-18 21:32:26,258 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Shutdown completed.
+2022-10-18 21:32:26,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:32:26,263 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:32:26,266 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:32:27,737 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:32:27,737 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:32:27,738 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:32:27,910 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:32:27,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 42 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:32:28,018 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:32:28,018 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:32:28,018 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:32:28,034 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:32:28,034 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 293 ms
+2022-10-18 21:32:28,068 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:32:28,072 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2022-10-18 21:32:28,214 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2022-10-18 21:32:28,214 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:32:28,416 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:32:28,417 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:32:28,680 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33f1a00d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dfad0a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f394512, org.springframework.security.web.header.HeaderWriterFilter@7b09007b, org.springframework.security.web.authentication.logout.LogoutFilter@63be0dcc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@203209aa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7b04eccf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1825b1f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69f09870, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ac947ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@286a9407, org.springframework.security.web.session.SessionManagementFilter@4e4df437, org.springframework.security.web.access.ExceptionTranslationFilter@7cb55550, org.springframework.security.web.access.intercept.AuthorizationFilter@2f662049]
+2022-10-18 21:32:28,706 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:32:29,056 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:32:29,067 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:32:29,076 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.359 seconds (JVM running for 12493.838)
+2022-10-18 21:32:29,077 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:32:29,077 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:33:04,173 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:33:04,181 INFO org.apache.juli.logging.DirectJDKLog [Thread-21] Stopping service [Tomcat]
+2022-10-18 21:33:04,186 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-21] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:04,186 INFO com.zaxxer.hikari.HikariDataSource [Thread-21] HikariPool-7 - Shutdown initiated...
+2022-10-18 21:33:04,188 INFO com.zaxxer.hikari.HikariDataSource [Thread-21] HikariPool-7 - Shutdown completed.
+2022-10-18 21:33:04,260 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:33:04,260 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:33:04,260 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:33:04,464 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:33:04,530 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:33:04,625 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:33:04,625 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:33:04,625 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:33:04,652 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:33:04,653 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 391 ms
+2022-10-18 21:33:04,703 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:33:04,708 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2022-10-18 21:33:04,763 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2022-10-18 21:33:04,764 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:33:05,024 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:33:05,025 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:05,170 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:33:05,170 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:05,170 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Shutdown initiated...
+2022-10-18 21:33:05,236 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Shutdown completed.
+2022-10-18 21:33:05,236 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:33:05,240 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:33:05,243 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:33:06,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:33:06,705 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:33:06,705 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:33:06,904 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:33:06,946 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:33:07,004 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:33:07,005 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:33:07,005 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:33:07,020 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:33:07,021 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 313 ms
+2022-10-18 21:33:07,053 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:33:07,057 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2022-10-18 21:33:07,095 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2022-10-18 21:33:07,096 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:33:07,264 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:33:07,265 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:07,534 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bced07b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ec85d2e, org.springframework.security.web.context.SecurityContextPersistenceFilter@9c494dd, org.springframework.security.web.header.HeaderWriterFilter@7a19ac7d, org.springframework.security.web.authentication.logout.LogoutFilter@4cc53ace, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e389838, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@28dfc720, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3c7dcab9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d489a9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a85b50c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76ce6c56, org.springframework.security.web.session.SessionManagementFilter@3e23541, org.springframework.security.web.access.ExceptionTranslationFilter@1bb3f77e, org.springframework.security.web.access.intercept.AuthorizationFilter@dcfe117]
+2022-10-18 21:33:07,558 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:33:07,908 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:33:07,919 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:33:07,922 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.235 seconds (JVM running for 12532.684)
+2022-10-18 21:33:07,923 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:33:07,923 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:33:22,617 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:33:22,625 INFO org.apache.juli.logging.DirectJDKLog [Thread-28] Stopping service [Tomcat]
+2022-10-18 21:33:22,631 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-28] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:22,631 INFO com.zaxxer.hikari.HikariDataSource [Thread-28] HikariPool-9 - Shutdown initiated...
+2022-10-18 21:33:22,633 INFO com.zaxxer.hikari.HikariDataSource [Thread-28] HikariPool-9 - Shutdown completed.
+2022-10-18 21:33:22,711 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:33:22,711 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:33:22,711 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:33:22,973 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:33:23,031 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 58 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:33:23,102 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:33:23,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:33:23,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:33:23,121 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:33:23,121 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 409 ms
+2022-10-18 21:33:23,161 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:33:23,164 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2022-10-18 21:33:23,218 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2022-10-18 21:33:23,219 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:33:23,424 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:33:23,424 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:23,554 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:33:23,555 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:23,555 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Shutdown initiated...
+2022-10-18 21:33:23,596 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Shutdown completed.
+2022-10-18 21:33:23,596 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:33:23,602 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:33:23,606 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:33:25,067 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:33:25,067 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:33:25,067 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:33:25,245 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:33:25,290 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:33:25,350 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:33:25,350 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:33:25,351 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:33:25,365 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:33:25,365 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 297 ms
+2022-10-18 21:33:25,410 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:33:25,414 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2022-10-18 21:33:25,454 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2022-10-18 21:33:25,455 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:33:25,636 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:33:25,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:33:25,915 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a7b1fbe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48d85aa6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4383bf72, org.springframework.security.web.header.HeaderWriterFilter@33a020d1, org.springframework.security.web.authentication.logout.LogoutFilter@5ba88ad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b551999, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6bfe7d4c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6262b99f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@634a7303, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@515e7113, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@198fd9b, org.springframework.security.web.session.SessionManagementFilter@50fd4cf8, org.springframework.security.web.access.ExceptionTranslationFilter@2845dbc, org.springframework.security.web.access.intercept.AuthorizationFilter@3f42ba58]
+2022-10-18 21:33:25,939 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:33:26,299 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:33:26,309 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:33:26,312 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.261 seconds (JVM running for 12551.074)
+2022-10-18 21:33:26,313 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:33:26,313 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:34:34,099 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:34:34,109 INFO org.apache.juli.logging.DirectJDKLog [Thread-35] Stopping service [Tomcat]
+2022-10-18 21:34:34,114 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-35] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:34,115 INFO com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-11 - Shutdown initiated...
+2022-10-18 21:34:34,116 INFO com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-11 - Shutdown completed.
+2022-10-18 21:34:34,190 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:34:34,190 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:34:34,190 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:34:34,427 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:34:34,481 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:34:34,557 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:34:34,558 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:34:34,558 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:34:34,576 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:34:34,576 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 384 ms
+2022-10-18 21:34:34,630 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:34:34,634 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2022-10-18 21:34:34,678 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2022-10-18 21:34:34,679 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:34:34,879 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:34:34,880 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:35,003 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:34:35,004 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:35,004 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Shutdown initiated...
+2022-10-18 21:34:35,013 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Shutdown completed.
+2022-10-18 21:34:35,013 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:34:35,017 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:34:35,022 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:34:36,482 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:34:36,482 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:34:36,482 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:34:36,650 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:34:36,691 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:34:36,754 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:34:36,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:34:36,755 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:34:36,783 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:34:36,783 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 300 ms
+2022-10-18 21:34:36,816 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:34:36,819 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2022-10-18 21:34:36,858 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2022-10-18 21:34:36,858 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:34:37,030 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:34:37,031 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:37,294 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2287bb1d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64a59370, org.springframework.security.web.context.SecurityContextPersistenceFilter@4558ce21, org.springframework.security.web.header.HeaderWriterFilter@6cfd26b6, org.springframework.security.web.authentication.logout.LogoutFilter@7cfee0bc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29f7459f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11ae6cbd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@a027634, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30abd7f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35668fc1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@194a0156, org.springframework.security.web.session.SessionManagementFilter@32e2c1d9, org.springframework.security.web.access.ExceptionTranslationFilter@1b7dcf79, org.springframework.security.web.access.intercept.AuthorizationFilter@1f4e30e0]
+2022-10-18 21:34:37,318 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:34:37,650 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:34:37,659 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:34:37,662 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.197 seconds (JVM running for 12622.425)
+2022-10-18 21:34:37,663 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:34:37,663 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:34:52,356 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:34:52,364 INFO org.apache.juli.logging.DirectJDKLog [Thread-42] Stopping service [Tomcat]
+2022-10-18 21:34:52,368 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-42] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:52,368 INFO com.zaxxer.hikari.HikariDataSource [Thread-42] HikariPool-13 - Shutdown initiated...
+2022-10-18 21:34:52,369 INFO com.zaxxer.hikari.HikariDataSource [Thread-42] HikariPool-13 - Shutdown completed.
+2022-10-18 21:34:52,438 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:34:52,438 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:34:52,438 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:34:52,645 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:34:52,709 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 63 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:34:52,809 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:34:52,810 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:34:52,810 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:34:52,827 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:34:52,827 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 388 ms
+2022-10-18 21:34:52,868 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:34:52,872 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2022-10-18 21:34:52,954 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2022-10-18 21:34:52,954 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:34:53,197 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:34:53,198 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:53,324 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:34:53,324 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:53,324 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Shutdown initiated...
+2022-10-18 21:34:53,340 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Shutdown completed.
+2022-10-18 21:34:53,341 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:34:53,345 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:34:53,349 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:34:54,812 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:34:54,812 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:34:54,812 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:34:54,982 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:34:55,023 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 40 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:34:55,079 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:34:55,079 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:34:55,079 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:34:55,093 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:34:55,093 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 280 ms
+2022-10-18 21:34:55,124 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:34:55,127 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Starting...
+2022-10-18 21:34:55,167 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Start completed.
+2022-10-18 21:34:55,168 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:34:55,358 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:34:55,358 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:34:55,616 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@197606d5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9bc869e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f397ee1, org.springframework.security.web.header.HeaderWriterFilter@471a9ec7, org.springframework.security.web.authentication.logout.LogoutFilter@58cdbad8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2cd862ec, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1005d24e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6e2a7fc2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d6a3486, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e95774a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10aafe9, org.springframework.security.web.session.SessionManagementFilter@14db40a6, org.springframework.security.web.access.ExceptionTranslationFilter@6a4708c8, org.springframework.security.web.access.intercept.AuthorizationFilter@13be99e2]
+2022-10-18 21:34:55,640 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:34:55,983 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:34:55,992 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:34:55,995 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.2 seconds (JVM running for 12640.757)
+2022-10-18 21:34:55,996 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:34:55,996 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:35:32,154 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-18 21:35:32,162 INFO org.apache.juli.logging.DirectJDKLog [Thread-49] Stopping service [Tomcat]
+2022-10-18 21:35:32,167 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-49] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:35:32,168 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-15 - Shutdown initiated...
+2022-10-18 21:35:32,169 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-15 - Shutdown completed.
+2022-10-18 21:35:32,252 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:35:32,252 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:35:32,252 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:35:32,488 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:35:32,543 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:35:32,616 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:35:32,616 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:35:32,617 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:35:32,633 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:35:32,633 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 378 ms
+2022-10-18 21:35:32,674 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:35:32,680 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Starting...
+2022-10-18 21:35:32,724 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Start completed.
+2022-10-18 21:35:32,724 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:35:32,948 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:35:32,948 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:35:33,084 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invoiceCotroller' defined in file [C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes\com\example\hotelBooking\api\controllers\InvoiceCotroller.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-18 21:35:33,085 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:35:33,085 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Shutdown initiated...
+2022-10-18 21:35:33,138 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Shutdown completed.
+2022-10-18 21:35:33,138 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-18 21:35:33,142 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-18 21:35:33,146 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.hotelBooking.api.controllers.InvoiceCotroller required a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.InvoiceService' in your configuration.
+
+2022-10-18 21:35:34,620 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 31296 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:35:34,620 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:35:34,620 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:35:34,792 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:35:34,834 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:35:34,896 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:35:34,896 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:35:34,896 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:35:34,911 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:35:34,911 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 290 ms
+2022-10-18 21:35:34,946 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:35:34,949 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Starting...
+2022-10-18 21:35:34,989 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Start completed.
+2022-10-18 21:35:34,989 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:35:35,173 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:35:35,173 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:35:35,420 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66bafc5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5181aec7, org.springframework.security.web.context.SecurityContextPersistenceFilter@49aab71f, org.springframework.security.web.header.HeaderWriterFilter@1b372efc, org.springframework.security.web.authentication.logout.LogoutFilter@5a0207ed, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4c1ce4c4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@8e9cbb9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5555a3aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ce2593c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e80cc92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e444700, org.springframework.security.web.session.SessionManagementFilter@7120e7fc, org.springframework.security.web.access.ExceptionTranslationFilter@770c5a2c, org.springframework.security.web.access.intercept.AuthorizationFilter@646c179a]
+2022-10-18 21:35:35,443 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:35:35,781 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:35:35,791 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:35:35,794 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 1.193 seconds (JVM running for 12680.556)
+2022-10-18 21:35:35,795 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-18 21:35:35,795 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 21:56:41,747 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:56:41,748 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-17 - Shutdown initiated...
+2022-10-18 21:56:41,749 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-17 - Shutdown completed.
+2022-10-18 21:56:45,769 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 11020 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 21:56:45,771 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 21:56:45,772 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 21:56:45,805 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 21:56:45,805 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 21:56:46,435 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 21:56:46,516 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 74 ms. Found 11 JPA repository interfaces.
+2022-10-18 21:56:46,953 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 21:56:46,961 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 21:56:46,961 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 21:56:47,032 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 21:56:47,032 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1226 ms
+2022-10-18 21:56:47,150 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 21:56:47,198 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 21:56:47,328 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 21:56:47,406 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 21:56:47,534 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 21:56:47,549 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 21:56:48,252 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 21:56:48,259 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 21:56:48,901 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f1c63ff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28e36792, org.springframework.security.web.context.SecurityContextPersistenceFilter@39946314, org.springframework.security.web.header.HeaderWriterFilter@2274cbd7, org.springframework.security.web.authentication.logout.LogoutFilter@62b96d18, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7153ad8e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@51ec9769, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1eab4cf5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63996045, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e8f7b2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b3b9590, org.springframework.security.web.session.SessionManagementFilter@466c9ca7, org.springframework.security.web.access.ExceptionTranslationFilter@78661ed2, org.springframework.security.web.access.intercept.AuthorizationFilter@985cd1f]
+2022-10-18 21:56:49,004 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 21:56:49,619 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 21:56:49,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 21:56:49,658 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 4.151 seconds (JVM running for 4.769)
+2022-10-18 21:56:49,660 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 22:03:52,243 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 22:03:52,246 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-18 22:03:52,248 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-18 22:03:54,357 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 29968 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 22:03:54,359 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 22:03:54,360 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 22:03:54,391 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 22:03:54,391 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 22:03:54,942 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 22:03:55,035 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 87 ms. Found 11 JPA repository interfaces.
+2022-10-18 22:03:55,434 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 22:03:55,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 22:03:55,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 22:03:55,504 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 22:03:55,504 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1112 ms
+2022-10-18 22:03:55,607 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 22:03:55,640 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 22:03:55,751 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 22:03:55,814 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 22:03:55,937 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 22:03:55,949 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 22:03:56,616 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 22:03:56,622 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 22:03:57,220 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14cdfb94, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15ef3006, org.springframework.security.web.context.SecurityContextPersistenceFilter@231ea253, org.springframework.security.web.header.HeaderWriterFilter@73fea678, org.springframework.security.web.authentication.logout.LogoutFilter@47350f6b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fff9ea6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5a08e93c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f7eab5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76d67cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2af10f3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b169210, org.springframework.security.web.session.SessionManagementFilter@63e1e158, org.springframework.security.web.access.ExceptionTranslationFilter@26314cdf, org.springframework.security.web.access.intercept.AuthorizationFilter@6edac0ea]
+2022-10-18 22:03:57,316 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 22:03:57,941 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 22:03:57,975 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 22:03:57,984 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.87 seconds (JVM running for 4.444)
+2022-10-18 22:03:57,987 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 22:04:11,324 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 22:04:11,326 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-18 22:04:11,328 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-18 22:04:13,400 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 25260 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 22:04:13,403 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 22:04:13,403 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 22:04:13,436 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 22:04:13,437 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 22:04:13,989 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 22:04:14,063 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 69 ms. Found 11 JPA repository interfaces.
+2022-10-18 22:04:14,443 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 22:04:14,450 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 22:04:14,450 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 22:04:14,514 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 22:04:14,514 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1077 ms
+2022-10-18 22:04:14,616 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 22:04:14,647 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 22:04:14,755 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 22:04:14,817 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 22:04:14,926 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 22:04:14,938 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 22:04:15,551 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 22:04:15,557 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 22:04:16,160 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f717dda, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@587c1607, org.springframework.security.web.context.SecurityContextPersistenceFilter@4edd31d8, org.springframework.security.web.header.HeaderWriterFilter@436ea811, org.springframework.security.web.authentication.logout.LogoutFilter@56467cd2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c6f0a23, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2d681c9f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9e2842f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1cf85074, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6edac0ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5dc1ae78, org.springframework.security.web.session.SessionManagementFilter@47350f6b, org.springframework.security.web.access.ExceptionTranslationFilter@2fcc3bd, org.springframework.security.web.access.intercept.AuthorizationFilter@558789f4]
+2022-10-18 22:04:16,258 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 22:04:16,865 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 22:04:16,894 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 22:04:16,904 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.744 seconds (JVM running for 4.335)
+2022-10-18 22:04:16,906 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 22:04:24,781 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 22:04:24,784 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-18 22:04:24,785 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-18 22:04:26,766 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 25448 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\NewHotelBooking15.10\NewHotelBooking14-10.2\NewHotelBooking\hotelBooking)
+2022-10-18 22:04:26,769 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-18 22:04:26,769 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-18 22:04:26,799 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 22:04:26,799 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 22:04:27,382 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 22:04:27,462 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 73 ms. Found 11 JPA repository interfaces.
+2022-10-18 22:04:27,853 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-18 22:04:27,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-18 22:04:27,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 22:04:27,935 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-18 22:04:27,935 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1136 ms
+2022-10-18 22:04:28,046 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 22:04:28,079 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 22:04:28,187 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 22:04:28,252 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-18 22:04:28,369 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-18 22:04:28,381 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-18 22:04:29,024 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 22:04:29,029 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 22:04:29,645 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1cba95bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@dda29b9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ac5e7bf, org.springframework.security.web.header.HeaderWriterFilter@271a5727, org.springframework.security.web.authentication.logout.LogoutFilter@424e8268, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19d4deef, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7e67388f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@180470ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37c2a44e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10ed481a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@560969c3, org.springframework.security.web.session.SessionManagementFilter@38d385c0, org.springframework.security.web.access.ExceptionTranslationFilter@2f72d80e, org.springframework.security.web.access.intercept.AuthorizationFilter@16809800]
+2022-10-18 22:04:29,749 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 22:04:30,378 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-18 22:04:30,405 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-18 22:04:30,415 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.881 seconds (JVM running for 4.431)
+2022-10-18 22:04:30,417 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-18 22:04:38,288 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 22:04:38,290 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-18 22:04:38,291 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-19 18:08:30,950 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 1224 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\Booking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\Booking\hotelBooking)
+2022-10-19 18:08:30,954 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-19 18:08:30,954 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-19 18:08:30,986 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-19 18:08:30,986 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-19 18:08:31,526 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 18:08:31,596 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65 ms. Found 11 JPA repository interfaces.
+2022-10-19 18:08:31,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-19 18:08:31,980 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-19 18:08:31,980 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 18:08:32,045 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-19 18:08:32,045 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1059 ms
+2022-10-19 18:08:32,147 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 18:08:32,177 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-19 18:08:32,284 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 18:08:32,346 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-19 18:08:32,459 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-19 18:08:32,471 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-19 18:08:33,078 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 18:08:33,084 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 18:08:33,663 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e67388f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42daf5f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ad93ecc, org.springframework.security.web.header.HeaderWriterFilter@35af45a3, org.springframework.security.web.authentication.logout.LogoutFilter@1d89f5d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@10ed481a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@879baf3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36293fca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c765d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@134b0e35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c12a02, org.springframework.security.web.session.SessionManagementFilter@61d3ae65, org.springframework.security.web.access.ExceptionTranslationFilter@2eac3b7, org.springframework.security.web.access.intercept.AuthorizationFilter@322f6ac5]
+2022-10-19 18:08:33,753 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 18:08:34,329 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-19 18:08:34,357 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 18:08:34,366 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.65 seconds (JVM running for 4.277)
+2022-10-19 18:08:34,368 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-19 18:08:38,365 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 18:08:38,367 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-19 18:08:38,369 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
