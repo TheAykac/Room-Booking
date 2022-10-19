@@ -8,15 +8,14 @@
 
 
 
-<b><h2> :star: Click for Backend Codes: :point_right: <a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit">BACKEND CODE </a> :point_left: </h2></b> 
+<b><h2> :star: Click for Backend Codes: :point_right: <a href="https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking">BACKEND CODE </a> :point_left: </h2></b> 
 ``` Backend Kodları İçin Tıklayınız: ```
-<b><h2> :star: Click for Database Script Codes: :point_right: <a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/blob/main/thirtyTwoBit/Database-Script.txt">SCRIPT CODE</a> :point_left: </h2></b>
+<b><h2> :star: Click for Database Script Codes: :point_right: <a href="https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/postgreSql/databaseScript.txt">SCRIPT CODE</a> :point_left: </h2></b>
 ``` Veritabanı Script Kodları İçin Tıklayınız: ```
 
-<b><h2> :star: Click for Postman Collection: :point_right: <a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/blob/main/ThirtyTwoBit.postman_test_run.json">POSTMAN COLLECTION</a> :point_left: </h2></b> 
-``` Postman Collection İçin Tıklayınız: ```
-![image](https://user-images.githubusercontent.com/101461108/189402324-d77deef2-681f-47a0-a0bd-fc1707de0db7.png)
 
+
+![](/hotelBooking/project_images/booking/booking.jpg)
 
 ---
 ## `File Structure` 
@@ -24,33 +23,48 @@
 ### ` 🏗️ N-Layered Architecture`
   
 <ul>
-        <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/api/">API</a> - The package that connects with the user
-            <ul>
-                <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/api/controllers">Controllers</a> </li>
-                </ul>
-        </li>
-        <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/business">Business</a> - The package with business rules
-            <ul>
-                <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/business/abstracts">Abstracts</a> </li>
-                <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/business/concretes">Concretes</a> </li>
-                 </ul>
-        </li>
-        <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/core">Core</a> - The package common layer of the project
-            <ul>
-              <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/core/utilities">Utilities</a> </li>
-            </ul>
-        </li>
-        <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/dataAccess">DataAccess</a> - The package containing database related operations
-            </li>
-        <li><a href="https://github.com/Yuksel-Can/Rent-A-Car-Project/tree/main/rentACarProject/rentACarProject/src/main/java/com/turkcell/rentACarProject/entities">Entities</a> - The package in which the assets are kept
-           </li>
-         <ul>                
-              <li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/entities/concretes">Concretes</a> </li>
-             
-<li><a href="https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task/tree/main/thirtyTwoBit/src/main/java/com/example/thirtyTwoBit/entities/dtos">DTO</a>                       </li>
-            </ul>
-        </li>
-    </ul>
+	<li>
+	
+  <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/api"><h3>:open_file_folder: api </h3></a>
+	<ul>
+		<li>:file_folder: controllers</li>
+		<li>:file_folder: models</li>
+	</ul>
+	</li>
+	<li>
+  <h3>:open_file_folder: business</h3>
+	<ul>
+		<li>:file_folder: abstracts</li>
+		<li>:file_folder: adapters.posAdapters</li>
+		<li>:file_folder: concretes</li>
+		<li>:file_folder: outServices</li>
+	</ul>
+	</li>
+	<li>
+  <h3> :open_file_folder: config</h3></li>
+	<li>
+  <h3> :open_file_folder: core.utilities</h3>
+	<ul>
+		<li>:file_folder: enums</li>
+		<li>:file_folder: exceptions</li>
+		<li>:file_folder: generate</li>
+		<li>:file_folder: mapping</li>
+		<li>:file_folder: messages</li>
+		<li>:file_folder: result</li>
+	</ul>
+	</li>
+	<li>
+  <h3> :open_file_folder: dataAccess</h3></li>
+	<li>
+  <h3> :open_file_folder: entity</h3>
+	<ul>
+		<li>:file_folder: abstracts</li>
+		<li>:file_folder: concretes</li>
+		<li>:file_folder: dtos</li>
+		<li>:file_folder: rquests</li>
+	</ul>
+	</li>
+</ul>
 
 ---
 
