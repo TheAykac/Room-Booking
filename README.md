@@ -1,9 +1,9 @@
 <div align="center"><h1> :sparkles: Thirty Two Bit Task :sparkles: </h1> </div>
 <div align="center"><h2> 🚥 32Bit Bilgisayar Task 🚥 </h2> </div>
 
-:point_right:  'Thirty Two Bit Task' This project was sent to me by a 32bit computer developed with the Java Spring Framework. Tools: **Java Spring-Hibernate-ORM-Maven-Spring Boot-AOP-DTO-JPA-RestAPI-JSON-Dev Tools-PostgreSQL**
+:point_right:  'Room Booking' This Project is the Final Project of ETSTUR Bootcamp. Tools: **Java Spring-Hibernate-ORM-Maven-Spring Boot-AOP-DTO-JPA-RestAPI-JSON-Dev Tools-PostgreSQL**
 <br/>
- ``` 'Thirty Two Bit Task', Bu proje 32bit Bilgisayar tarafından tarafıma gönderilmiş, Java Spring Framework ile geliştirilmiştir . Araçlar: **Java Spring-Hibernate-ORM-Maven-Spring Boot-AOP-DTO-JPA-RestAPI-JSON-Dev Tools-PostgreSQL**```
+ ``` 'Room Booking', Bu proje ETSTUR bootcamp'ın bitirme projesidir, Java Spring Framework ile geliştirilmiştir . Araçlar: **Java Spring-Hibernate-ORM-Maven-Spring Boot-AOP-DTO-JPA-RestAPI-JSON-Dev Tools-PostgreSQL**```
 <br/>
 
 
