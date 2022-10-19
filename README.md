@@ -22,46 +22,45 @@
 
 ### ` 🏗️ N-Layered Architecture`
   
-<ul>
-	<li>
-	
-  <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/api"><h3>:open_file_folder: api </h3></a>
-	<ul>
-		<li>:file_folder: controllers</li>
-		<li>:file_folder: models</li>
+<ul><li>	
+  <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/api">:open_file_folder: Api</a>
+	<ul><li>
+			 <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/api/controllers"> :file_folder: controllers </a> </li>
+		<li>
+			 <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/api/models"> :file_folder: models  </a> </li>
 	</ul>
 	</li>
 	<li>
-  <h3>:open_file_folder: business</h3>
+ <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/business"> :open_file_folder: Business</a>
 	<ul>
-		<li>:file_folder: abstracts</li>
-		<li>:file_folder: adapters.posAdapters</li>
-		<li>:file_folder: concretes</li>
-		<li>:file_folder: outServices</li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/business/abstracts">:file_folder: abstracts</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/business/adapters/posAdapters">:file_folder: adapters.posAdapters</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/business/concretes">:file_folder: concretes</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/business/outServices">:file_folder: outServices</a></li>
 	</ul>
 	</li>
 	<li>
-  <h3> :open_file_folder: config</h3></li>
+   <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/config"> :open_file_folder: Config</a></li>
 	<li>
-  <h3> :open_file_folder: core.utilities</h3>
+    <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/core/utilities"> :open_file_folder: Core</a>
 	<ul>
-		<li>:file_folder: enums</li>
-		<li>:file_folder: exceptions</li>
-		<li>:file_folder: generate</li>
-		<li>:file_folder: mapping</li>
-		<li>:file_folder: messages</li>
-		<li>:file_folder: result</li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/core/utilities/enums"> :file_folder: enums</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/core/utilities/exceptions"> :file_folder: exceptions</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/core/utilities/generate"> :file_folder: generate</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/core/utilities/mapping"> :file_folder: mapping</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/core/utilities/messages"> :file_folder: messages</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/core/utilities/result"> :file_folder: result</a></li>
 	</ul>
 	</li>
 	<li>
-  <h3> :open_file_folder: dataAccess</h3></li>
+    <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/dataAccess"> :open_file_folder: DataAccess</li></a>
 	<li>
-  <h3> :open_file_folder: entity</h3>
+    <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/entity"> :open_file_folder: Entity </a>
 	<ul>
-		<li>:file_folder: abstracts</li>
-		<li>:file_folder: concretes</li>
-		<li>:file_folder: dtos</li>
-		<li>:file_folder: rquests</li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/entity/abstracts">:file_folder: abstracts</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/entity/concretes">:file_folder: concretes</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/entity/dtos">:file_folder: dtos</a></li>
+		<li> <a href = "https://github.com/TheAykac/Room-Booking/tree/main/hotelBooking/hotelBooking/src/main/java/com/example/hotelBooking/entity/requests">:file_folder: rquests</a></li>
 	</ul>
 	</li>
 </ul>
@@ -80,14 +79,29 @@
 </a>
 </p>
  
- ---
+ 
+   ---
   
+  ## ` 📊 ER Diagram with PostgreSQL`
+   ### <a href="https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/postgreSql/databaseScript.txt">Click</a> for script codes.
+<p align="center"><img src="https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/diagrams/roomBookingPostgresql.pgerd.png"></p>
+  
+---
 
   
  
   ## ` 🔭 Swagger Screenshots and Endpoints`  ###
 
- ![SwaggerEkranAlıntısı](https://user-images.githubusercontent.com/101461108/189408343-e662fe38-c28e-4dec-b3de-fd414372c971.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/campaign-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/credit-card-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/customer-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/hotel-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/invoice-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/payment-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/room-booking-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/room-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/room-renovations-controller.jpg)
+![SwaggerEkranAlıntısı](https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/project_images/swagger-ss/system-management-controller.jpg)	
 
   
   
@@ -109,7 +123,7 @@ E-Mail - [farukomeraykac@gmail.com](mailto:farukomeraykac@gmail.com)
 
 Linkedin - [linkedin.com/in/omerfarukaykac](https://www.linkedin.com/in/omerfarukaykac/)
 
-Project Link: [https://github.com/TheAykac/Thirty-Two-Bit-Computer-Task)
+Project Link: https://github.com/TheAykac/Room-Booking
 
 ---
 
