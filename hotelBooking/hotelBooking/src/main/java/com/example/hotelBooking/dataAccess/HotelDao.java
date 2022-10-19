@@ -12,8 +12,8 @@ public interface HotelDao extends JpaRepository<Hotel, Integer> {
 
     boolean existsByEmail(String email);
 
-    @Query("Select h from Hotel h where h.email=:email ")
-    Hotel findByEmail(@Param("email") String email);
+
+    Hotel findByEmail(String email);
 
 
 }

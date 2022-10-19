@@ -38,11 +38,11 @@ public class Room {
     private RoomType roomType;
 
 
-    /*@OneToMany(mappedBy = "room")
+    @OneToMany(mappedBy = "room")
     private List<RoomBooking> roomBookings;
 
     @OneToMany(mappedBy = "room")
-    private List<RoomRenovation> roomRenovations;*/
+    private List<RoomRenovation> roomRenovations;
     @ManyToOne
     @JoinColumn(name = "hotel_id")
     private Hotel hotel;

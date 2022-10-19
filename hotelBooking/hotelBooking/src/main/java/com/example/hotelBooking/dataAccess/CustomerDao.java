@@ -8,5 +8,13 @@ public interface CustomerDao extends JpaRepository<Customer, Integer> {
 
     boolean existsById(int customerId);
 
+
     Customer getByEmail(String email);
+
+
+
+
+
+
+
 }

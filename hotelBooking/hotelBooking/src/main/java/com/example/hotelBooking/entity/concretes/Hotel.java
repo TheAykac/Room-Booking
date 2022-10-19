@@ -46,8 +46,8 @@ public class Hotel extends User {
     private HotelStatu hotelStatu;
 
 
-    /*@OneToMany(mappedBy = "hotel",fetch = FetchType.LAZY)
-    private List<Room> rooms;*/
+    @OneToMany(mappedBy = "hotel",fetch = FetchType.LAZY)
+    private List<Room> rooms;
 
 
 }

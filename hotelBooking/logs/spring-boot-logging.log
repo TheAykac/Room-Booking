@@ -848,3 +848,49 @@ Consider defining a bean of type 'com.example.hotelBooking.business.abstracts.In
 2022-10-19 18:08:38,365 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-10-19 18:08:38,367 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2022-10-19 18:08:38,369 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-10-19 20:23:50,322 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelBookingApplication using Java 17.0.3.1 on OmerAYKAC with PID 11132 (C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\Booking\hotelBooking\hotelBooking\target\classes started by Omer AYKAC in C:\Users\Omer AYKAC\Desktop\Etstur Java Developer Bootcamp\Booking\hotelBooking)
+2022-10-19 20:23:50,324 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-19 20:23:50,325 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2022-10-19 20:23:50,360 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-19 20:23:50,360 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-19 20:23:50,932 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 20:23:51,004 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65 ms. Found 11 JPA repository interfaces.
+2022-10-19 20:23:51,398 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-19 20:23:51,404 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-19 20:23:51,404 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 20:23:51,472 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-19 20:23:51,473 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1111 ms
+2022-10-19 20:23:51,581 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 20:23:51,613 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-19 20:23:51,725 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 20:23:51,790 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-19 20:23:51,904 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-19 20:23:51,915 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-19 20:23:52,560 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 20:23:52,565 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 20:23:53,174 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6cd39f92, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2943b24b, org.springframework.security.web.context.SecurityContextPersistenceFilter@30a0303b, org.springframework.security.web.header.HeaderWriterFilter@3137f99c, org.springframework.security.web.authentication.logout.LogoutFilter@2f62843, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25476a1a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2bf48af5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1a532ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42014b9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c81541e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a6b623b, org.springframework.security.web.session.SessionManagementFilter@372b4ad2, org.springframework.security.web.access.ExceptionTranslationFilter@67a14b3c, org.springframework.security.web.access.intercept.AuthorizationFilter@2653c027]
+2022-10-19 20:23:53,277 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 20:23:53,895 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-19 20:23:53,926 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 20:23:53,936 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelBookingApplication in 3.881 seconds (JVM running for 4.561)
+2022-10-19 20:23:53,938 INFO com.example.hotelBooking.HotelBookingApplication [restartedMain] System Is Started
+2022-10-19 20:24:01,719 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 20:24:01,720 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-19 20:24:01,721 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-19 20:24:02,413 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 336 ms
+2022-10-19 20:24:07,856 INFO com.example.hotelBooking.api.controllers.RoomController [http-nio-8080-exec-10] Fetching All Customer
+2022-10-19 20:24:07,926 INFO com.example.hotelBooking.business.concretes.RoomManager [http-nio-8080-exec-10] The Get List Operation Worked RoomManager -> getAll operation
+2022-10-19 20:25:12,605 INFO com.example.hotelBooking.business.concretes.RoomManager [http-nio-8080-exec-6] Checking dates in the database for this room roomId: 6
+2022-10-19 20:25:12,623 INFO com.example.hotelBooking.business.concretes.RoomManager [http-nio-8080-exec-6] Checking dates in the database for this room roomId: 7
+2022-10-19 20:25:12,625 INFO com.example.hotelBooking.business.concretes.RoomManager [http-nio-8080-exec-6] Checking dates in the database for this room roomId: 8
+2022-10-19 20:25:12,626 INFO com.example.hotelBooking.business.concretes.RoomManager [http-nio-8080-exec-6] The Get List Operation Worked Room Manager -> getAllAvailableRooms
+2022-10-19 20:26:09,775 INFO com.example.hotelBooking.business.concretes.CreditCardManager [http-nio-8080-exec-1] The Get List Operation WorkedCreditCardManager -> Add Operation
+2022-10-19 20:26:15,173 INFO com.example.hotelBooking.business.concretes.CreditCardManager [http-nio-8080-exec-3] The Get List Operation WorkedCreditCardManager -> Add Operation
+2022-10-19 20:27:44,041 INFO com.example.hotelBooking.business.concretes.RoomBookingManager [http-nio-8080-exec-10] The Add Operation WorkedRoomBookingManager -> Add Operation
+2022-10-19 20:29:15,207 INFO com.example.hotelBooking.business.concretes.CreditCardManager [http-nio-8080-exec-2] Database CheckingCreditCardManager -> checkSaveInformationAndSaveCreditCard Operation
+2022-10-19 20:29:15,217 INFO com.example.hotelBooking.business.concretes.CreditCardManager [http-nio-8080-exec-2] Database CheckingCreditCardManager -> CheckIfNotExistsByCardNumber Operation
+2022-10-19 20:29:15,230 INFO com.example.hotelBooking.business.concretes.CreditCardManager [http-nio-8080-exec-2] The Add Operation Worked CreditCardManager -> Add Operation
+2022-10-19 20:29:15,231 INFO com.example.hotelBooking.business.concretes.InvoiceManagar [http-nio-8080-exec-2] creating an invoiceInvoiceManger -> CreateAddInvoice Operation
+2022-10-19 20:29:15,325 INFO com.example.hotelBooking.business.concretes.InvoiceManagar [http-nio-8080-exec-2] The Add Operation Worked 
+2022-10-19 20:29:15,325 INFO com.example.hotelBooking.business.concretes.PaymentManager [http-nio-8080-exec-2] Successfully Received Payment Paymenetmanager -> MakePayment Operation
+2022-10-19 20:30:05,010 INFO com.example.hotelBooking.business.concretes.CreditCardManager [http-nio-8080-exec-9] The Get List Operation WorkedCreditCardManager -> Add Operation
