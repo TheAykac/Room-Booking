@@ -17,6 +17,8 @@ In this work, the process takes place as follows. Hotels can register to the sys
 ``` Backend Kodları İçin Tıklayınız: ```
 <b><h2> :star: Click for Database Script Codes: :point_right: <a href="https://github.com/TheAykac/Room-Booking/blob/main/hotelBooking/postgreSql/databaseScript.txt">SCRIPT CODE</a> :point_left: </h2></b>
 ``` Veritabanı Script Kodları İçin Tıklayınız: ```
+<b><h2> :star: Click for Project Video: :point_right: <a href="https://www.youtube.com/watch?v=W35yq0p_pBg">Project Video </a> :point_left: </h2></b> 
+``` Proje Tanıtım Videosu İçin Tıklayınız: ```
 
 
 
