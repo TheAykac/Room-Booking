@@ -1,0 +1,108 @@
+2023-01-07 11:00:58,226 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerMangerTest using Java 17.0.3.1 on OmerAYKAC with PID 5948 (started by Omer AYKAC in C:\Users\Omer AYKAC\Documents\GitHub\Room-Booking\hotelBooking\hotelBooking)
+2023-01-07 11:00:58,228 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-01-07 11:00:58,228 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-01-07 11:00:58,914 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-07 11:00:59,008 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86 ms. Found 11 JPA repository interfaces.
+2023-01-07 11:00:59,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2023-01-07 11:00:59,783 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-07 11:00:59,784 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-07 11:00:59,941 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-07 11:00:59,941 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1696 ms
+2023-01-07 11:01:00,236 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-07 11:01:00,296 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-01-07 11:01:00,358 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-07 11:01:00,436 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-07 11:01:00,582 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-07 11:01:00,597 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-07 11:01:01,346 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-07 11:01:01,352 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:01:02,445 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31c800a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@130ad58d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5aa461, org.springframework.security.web.header.HeaderWriterFilter@40304938, org.springframework.security.web.authentication.logout.LogoutFilter@6d7a343f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@d0538b3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e0b7f58, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@648bfebe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a67bcaf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@506654fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383a5260, org.springframework.security.web.session.SessionManagementFilter@48cbb4c5, org.springframework.security.web.access.ExceptionTranslationFilter@5101b9, org.springframework.security.web.access.intercept.AuthorizationFilter@60493524]
+2023-01-07 11:01:02,847 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-07 11:01:04,602 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 49931 (http) with context path ''
+2023-01-07 11:01:04,618 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerMangerTest in 6.707 seconds (JVM running for 7.973)
+2023-01-07 11:01:04,663 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] Database Checking CustomerMager -> CheckIfCustomerEmailExists Operation
+2023-01-07 11:01:04,702 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] The Add Operation Worked CustomerMager -> Add Operation
+2023-01-07 11:01:04,738 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:01:04,741 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-07 11:01:04,745 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-01-07 11:01:20,951 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerMangerTest using Java 17.0.3.1 on OmerAYKAC with PID 14848 (started by Omer AYKAC in C:\Users\Omer AYKAC\Documents\GitHub\Room-Booking\hotelBooking\hotelBooking)
+2023-01-07 11:01:20,953 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-01-07 11:01:20,953 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-01-07 11:01:21,682 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-07 11:01:21,796 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 95 ms. Found 11 JPA repository interfaces.
+2023-01-07 11:01:22,601 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2023-01-07 11:01:22,615 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-07 11:01:22,616 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-07 11:01:22,759 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-07 11:01:22,759 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1784 ms
+2023-01-07 11:01:23,177 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-07 11:01:23,245 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-01-07 11:01:23,273 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-07 11:01:23,363 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-07 11:01:23,508 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-07 11:01:23,524 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-07 11:01:24,282 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-07 11:01:24,288 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:01:25,494 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@751526a7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2279e7c7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c989d82, org.springframework.security.web.header.HeaderWriterFilter@52c2d1e8, org.springframework.security.web.authentication.logout.LogoutFilter@6f6998b6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@52a3eba3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@54c697c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4c5e123d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e5febe9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fdff4f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69542112, org.springframework.security.web.session.SessionManagementFilter@334ac669, org.springframework.security.web.access.ExceptionTranslationFilter@2740585b, org.springframework.security.web.access.intercept.AuthorizationFilter@6ddc817f]
+2023-01-07 11:01:25,904 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-07 11:01:27,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 49957 (http) with context path ''
+2023-01-07 11:01:27,660 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerMangerTest in 6.999 seconds (JVM running for 8.28)
+2023-01-07 11:01:27,696 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] Database Checking CustomerMager -> CheckIfCustomerEmailExists Operation
+2023-01-07 11:01:27,728 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] The Add Operation Worked CustomerMager -> Add Operation
+2023-01-07 11:01:27,787 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:01:27,790 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-07 11:01:27,793 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-01-07 11:06:10,310 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerMangerTest using Java 17.0.3.1 on OmerAYKAC with PID 16760 (started by Omer AYKAC in C:\Users\Omer AYKAC\Documents\GitHub\Room-Booking\hotelBooking\hotelBooking)
+2023-01-07 11:06:10,312 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-01-07 11:06:10,312 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-01-07 11:06:10,987 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-07 11:06:11,097 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96 ms. Found 11 JPA repository interfaces.
+2023-01-07 11:06:11,902 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2023-01-07 11:06:11,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-07 11:06:11,918 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-07 11:06:12,044 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-07 11:06:12,045 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1715 ms
+2023-01-07 11:06:12,346 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-07 11:06:12,414 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-01-07 11:06:12,448 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-07 11:06:12,546 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-07 11:06:12,687 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-07 11:06:12,700 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-07 11:06:13,401 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-07 11:06:13,407 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:06:14,597 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a90f33d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c7b27c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bd6bfb0, org.springframework.security.web.header.HeaderWriterFilter@55159007, org.springframework.security.web.authentication.logout.LogoutFilter@1503f434, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@110f66e3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@26398f67, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2bd8c8f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@536f389, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dcc0bb8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7db63a01, org.springframework.security.web.session.SessionManagementFilter@6e68ccc9, org.springframework.security.web.access.ExceptionTranslationFilter@304cad3a, org.springframework.security.web.access.intercept.AuthorizationFilter@3618486e]
+2023-01-07 11:06:15,024 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-07 11:06:16,784 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 50754 (http) with context path ''
+2023-01-07 11:06:16,796 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerMangerTest in 6.78 seconds (JVM running for 8.084)
+2023-01-07 11:06:16,821 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] Database Checking CustomerMager -> CheckIfCustomerEmailExists Operation
+2023-01-07 11:06:16,850 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] The Add Operation Worked CustomerMager -> Add Operation
+2023-01-07 11:06:16,886 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:06:16,889 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-07 11:06:16,894 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-01-07 11:08:31,637 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerMangerTest using Java 17.0.3.1 on OmerAYKAC with PID 6888 (started by Omer AYKAC in C:\Users\Omer AYKAC\Documents\GitHub\Room-Booking\hotelBooking\hotelBooking)
+2023-01-07 11:08:31,639 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-01-07 11:08:31,639 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-01-07 11:08:32,342 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-07 11:08:32,445 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 11 JPA repository interfaces.
+2023-01-07 11:08:33,281 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2023-01-07 11:08:33,290 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-07 11:08:33,291 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-07 11:08:33,436 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-07 11:08:33,436 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1780 ms
+2023-01-07 11:08:33,840 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-07 11:08:33,938 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-01-07 11:08:34,029 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-07 11:08:34,233 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-07 11:08:34,390 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-07 11:08:34,405 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-07 11:08:35,173 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-07 11:08:35,179 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:08:36,429 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3618486e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52c68925, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bb888b7, org.springframework.security.web.header.HeaderWriterFilter@16718e1b, org.springframework.security.web.authentication.logout.LogoutFilter@76055d02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35a81281, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1784fcab, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4ebd0b52, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@321c01c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@628cb8e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65a01901, org.springframework.security.web.session.SessionManagementFilter@1fd73dcb, org.springframework.security.web.access.ExceptionTranslationFilter@1e9e4468, org.springframework.security.web.access.intercept.AuthorizationFilter@751526a7]
+2023-01-07 11:08:36,827 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-07 11:08:38,668 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 50884 (http) with context path ''
+2023-01-07 11:08:38,682 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerMangerTest in 7.359 seconds (JVM running for 8.797)
+2023-01-07 11:08:38,719 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] Database Checking CustomerMager -> CheckIfCustomerEmailExists Operation
+2023-01-07 11:08:38,749 INFO com.example.hotelBooking.business.concretes.CustomerManager [main] The Add Operation Worked CustomerMager -> Add Operation
+2023-01-07 11:08:38,784 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-07 11:08:38,788 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-07 11:08:38,791 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

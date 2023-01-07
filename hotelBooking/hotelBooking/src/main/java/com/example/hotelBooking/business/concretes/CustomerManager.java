@@ -20,13 +20,13 @@ import java.util.stream.Collectors;
 
 @Service
 @Slf4j
-public class CustomerManger implements CustomerService {
+public class CustomerManager implements CustomerService {
     // This is a constructor injection.
     private final CustomerDao customerDao;
     private final ModelMapperService modelMapperService;
 
     @Autowired
-    public CustomerManger(CustomerDao customerDao, ModelMapperService modelMapperService) {
+    public CustomerManager(CustomerDao customerDao, ModelMapperService modelMapperService) {
         this.customerDao = customerDao;
         this.modelMapperService = modelMapperService;
     }
@@ -128,7 +128,7 @@ public class CustomerManger implements CustomerService {
      *
      * @param email The email to check if it exists in the database.
      */
-    private void checkIfCustomerEmailExists(String email) throws BusinessException {
+    public void checkIfCustomerEmailExists(String email) throws BusinessException {
         log.info(BusinessMessages.LogMessages.CHECKING_DB + " CustomerMager -> CheckIfCustomerEmailExists Operation");
         if (this.customerDao.existsByEmail(email)) {
             throw new BusinessException(BusinessMessages.CustomerMessages.CUSTOMER_EMAIL_ALREAY_EXISTS + email);
